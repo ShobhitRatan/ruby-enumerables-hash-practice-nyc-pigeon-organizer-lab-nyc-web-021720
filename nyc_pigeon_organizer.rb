@@ -11,10 +11,10 @@ def nyc_pigeon_organizer(data)
           if !n_h[name][attributes]
             n_h[name][attributes] = []
           end
-          n_h[name][attributes].append(i_a.to_s)
+          n_h[name][attributes].push(i_a.to_s)
         end
       }
     end
   end
-  n_h 
+  n_h
 end
